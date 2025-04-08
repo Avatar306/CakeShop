@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes for Sale</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 1200px;
+            height: 40px;
+            background-color: white;
+            font-family: Arial;
+            font-size: 16px;
+            text-align: right;
+            margin-top: -40px;
+        }
+
+        nav a {
+            display: inline-block;
+            /* Ensures links respect text alignment */
+            margin-left: 30px;
+            padding-top: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #e94d40;
+            padding-left: 5%;
+
+        }
+
+        p {
+            font-family: arial;
+            font-size: 16px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            text-align: left;
+            padding-left: 5%;
+        }
+
+        td {
+            width: 350px;
+            height: 100px;
+        }
+
+        th {
+            background-color: #424656;
+            color: white;
+            height: 25px;
+        }
+
+        input {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 50%;
+
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            width: 1200px;
+            height: 50px;
+            background-color: #0C243c;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            padding-top: 20px;
+        }
+
+        img,
+        p {
+            padding-left: 5%;
+            margin-bottom: 1%;
+        }
+
+        #container {
+            width: 1200px;
+            height: 830px;
+            background-color: white;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        table {
+            margin-left: 5%;
+        }
+
+        fieldset {
+            margin-left: 5%;
+            width: 400px;}
+
+        h1,
+        h2,
+        h3 {
+            padding: 10px;
+            margin-left: 4%;
+        }
+        #product_table {
+            padding: 5px;
+        }
+        tr:nth-child(odd) {
+  background-color: white
+}
+
+tr:nth-child(even) {
+  background-color: #e9eff2;
+}
+</style>
+</head>
+
+<body>
+    <div id="container">
+
+        <a href="index.html"><img class="logo" src="Edited_image/small/logo.png"
+                alt="cake shop logo. links to home page"></a><br><br>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Cakes-for-sale.html">Cakes for sale</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <h1>Cakes for Sale</h1>
+        <div class="image-container">
+            <a href="Edited_image/small/specialOccasion300.jpg" class="Special_Occasion">
+                <img src="Edited_image/small/specialOccasion300.jpg" alt="Special Occasion cake">
+            </a>
+            <a href="Edited_image/small/lemonCake300.jpg">
+                <img src="Edited_image/small/lemonCake300.jpg" alt="Flavoured cake">
+            </a>
+            <a href="Edited_image/small/cheeseCake300.jpg">
+                <img src="Edited_image/small/cheeseCake300.jpg" alt="Cheesecake">
+            </a>
+            <a href="Edited_image/small/brownie300.jpg">
+                <img src="Edited_image/small/brownie300.jpg" alt="Brownie">
+            </a>
+            <a href="Edited_image/small/cupcake300.jpg">
+                <img src="Edited_image/small/cupcake300.jpg" alt="Cupcake">
+            </a>
+            <a href="Edited_image/small/macaron300.jpg">
+                <img src="Edited_image/small/macaron300.jpg" alt="Macaron">
+            </a>
+        </div>
+        <h2>Allergy Warning</h2>
+        <div class="product_table">
+            <table>
+                <tr>
+                    <th>Products</th>
+                    <th>Allergy statement to display</th>
+                </tr>
+                <tr>
+                    <td>Brownies</td>
+                    <td>Contains dairy, nuts and eggs</td>
+                </tr>
+                <tr>
+                    <td>Flavoured cakes</td>
+                    <td>Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</td>
+                </tr>
+                <tr>
+                    <td>Cheesecake</td>
+                    <td>Contains gluten and dairy</td>
+                </tr>
+                <tr>
+                    <td>Cupcakes</td>
+                    <td>Contains gluten, dairy, nuts and eggs</td>
+                </tr>
+                <tr>
+                    <td>Speciality cakes</td>
+                    <td>Can be made to match dietary requirements</td>
+                </tr>
+                <tr>
+                    <td>Macarons</td>
+                    <td>Contains gluten, dairy, nuts and eggs</td>
+                </tr>
+            </table>
+        </div>
+        <h2>Prices</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Cake Size</th>
+                    <th>Suitable for</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>8-10 people</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td>10-12 people</td>
+                    <td>$60.00</td>
+                </tr>
+                <tr>
+                    <td>Large</td>
+                    <td>10-16 people</td>
+                    <td>$100.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>How to order</h2>
+        <p>If you're interested in ordering a cake for your special occasion, let us know!</p>
+
+        <fieldset>
+            <legend>
+            <label for="my_name">Name:</label>
+            <input type="text" id="my_name"><br><br>
+            <label for="Email_address">Email:</label>
+            <input type="text" id="Email_address"> <br><br>
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone"><br><br>
+            <label for="Cake">Type of cake:</label>
+            <input type="text" id="Cake"><br><br>
+            <a href="Order_Confirmed.html"></a>
+            <button type="submit">Send</button>
+        </fieldset>
+        </legend>
+
+        <footer>
+            @2025 by Christian Hong
+        </footer>
+
+    </div>
+</body>
+
+</html>

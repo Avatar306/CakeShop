@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        fieldset {
+            border-color: rgb(221, 171, 94);
+
+        }
+
+        footer {
+            width: 1200px;
+            height: 50px;
+            background-color: #0C243c;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            padding-top: 20px;
+        }
+
+        ul,
+        li {
+            padding-left: 5%;
+        }
+
+        #container {
+            width: 1200px;
+            height: 830px;
+            background-color: white;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        p {
+            font-size: 16px;
+            padding-left: 5%;
+        }
+
+        h1,
+        h2 {
+            color: #e94d40;
+            font-family: Arial;
+            padding-left: 5%;
+
+        }
+
+        nav {
+            width: 1200px;
+            height: 40px;
+            background-color: white;
+            font-family: Arial;
+            font-size: 16px;
+            text-align: right;
+            margin-top: -40px;
+        }
+
+        nav a {
+            display: inline-block;
+            /* Ensures links respect text alignment */
+            margin-left: 30px;
+            padding-top: 20px;
+        }
+
+        input {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 50%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <a href="index.html"><img class="logo" src="Edited_image/small/logo.png"
+                alt="cake shop logo. links to home page"></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Cakes-for-sale.html">Cakes for sale</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <h1>Get in touch with us</h1>
+        <header><img src="Edited_image/large/chocolateCake640.jpg" alt="Chocolate cake"></header>
+        <h2>How to order</h2>
+        <ul>
+            <li>Name</li>
+            <li>Email Address</li>
+            <li>Phone Number</li>
+            <li>The person's question or feedback.</li>
+        </ul>
+        <br>
+        <fieldset>
+            <label for="my_name">Name:</label>
+            <input type="text" id="my_name"><br><br>
+            <label for="Email_address">Email:</label>
+            <input type="text" id="Email_address"> <br><br>
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone"> <br><br>
+            <label for="feedback">Feedback:</label>
+            <textarea name="feedback" id="feedback" rows="4"></textarea>
+            <button type="submit">Send</button>
+        </fieldset>
+
+        <footer>
+            @2025 by Christian Hong
+        </footer>
+    </div>
+</body>
+
+</html>
